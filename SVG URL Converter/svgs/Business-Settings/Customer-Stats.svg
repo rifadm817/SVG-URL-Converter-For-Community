@@ -1,0 +1,34 @@
+<!-- URL: http://localhost:3000/svg/Business-Settings/Customer-Stats.svg?Total-Orders={value}&Active-Orders={value}&Customer-Age={value}&Total-Sales={value}&Average-Order-Value={value}&Open-Tender-Value={value} -->
+
+<svg width="1000" height="403.26" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <rect x="1.26" y="1.76" width="306.04" height="180.35" rx="35.52" fill="%23F7F9FA" stroke="rgb(206, 207, 214)" stroke-width="0.89"/>
+        <rect x="345.56" y="1.76" width="306.04" height="180.35" rx="35.52" fill="%23F7F9FA" stroke="rgb(206, 207, 214)" stroke-width="0.89"/>
+        <rect x="693.50" y="1.76" width="304.22" height="180.35" rx="35.52" fill="%23F7F9FA" stroke="rgb(206, 207, 214)" stroke-width="0.89"/>
+        <rect x="1.26" y="220.36" width="304.22" height="180.35" rx="35.52" fill="%23F7F9FA" stroke="rgb(206, 207, 214)" stroke-width="0.89"/>
+        <rect x="345.56" y="220.36" width="306.04" height="180.35" rx="35.52" fill="%23F7F9FA" stroke="rgb(206, 207, 214)" stroke-width="0.89"/>
+        <rect x="693.50" y="220.36" width="304.22" height="180.35" rx="35.52" fill="%23F7F9FA" stroke="rgb(206, 207, 214)" stroke-width="0.89"/>
+    </g>
+
+    <g font-family="Gill Sans, sans-serif" fill="black">
+        <g font-size="27">
+            <text x="30.55" y="50.92">Total Orders</text>
+            <text x="376.78" y="50.92">Active Orders</text>
+            <text x="723.01" y="50.92">Customer Age</text>
+            <text x="30.55" y="274.95">Total Sales</text>
+            <text x="376.78" y="274.95">Average Order Value</text>
+            <text x="723.01" y="274.95">Open Tender Value</text>
+        </g>
+
+        <g font-size="39" font-weight="bold" font-family="Calibri, sans-serif">
+            <text x="30.55" y="112.02">{{Total-Orders}}</text>
+            <text x="376.78" y="112.02">{{Active-Orders}}</text>
+            <text x="723.01" y="112.02">{{Customer-Age}}</text>
+            <text x="30.55" y="336.05">{{Total-Sales}}</text>
+            <text x="376.78" y="336.05">{{Average-Order-Value}}</text>
+            <text x="723.01" y="336.05">{{Open-Tender-Value}}</text>
+        </g>
+    </g>
+</svg>
+
+
